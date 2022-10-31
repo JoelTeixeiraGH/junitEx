@@ -201,7 +201,7 @@ fi
 
 set -- \
         -classpath "$CLASSPATH" \
-        BinString \
+        junitEx.BinString \
         "$@"
 
 # Stop when "xargs" is not available.
