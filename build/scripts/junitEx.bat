@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\junitEx.jar
 
 
 @rem Execute junitEx
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %JUNIT_EX_OPTS%  -classpath "%CLASSPATH%" BinString %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %JUNIT_EX_OPTS%  -classpath "%CLASSPATH%" junitEx.BinString %*
 
 :end
 @rem End local scope for the variables with windows NT shell

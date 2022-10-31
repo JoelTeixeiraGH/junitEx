@@ -19,4 +19,4 @@ test{
     }
 }
 
-mainClassName = 'BinString'
+mainClassName = 'junitEx.BinString'
